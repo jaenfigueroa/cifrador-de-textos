@@ -15,10 +15,15 @@
 - ### Desktop preview
 
 <img src="./assets/enc-desktop.png" style="width: 100%"  />
+<img src="./assets/enc-desktop-2.png" style="width: 100%"  />
 
 - ### Mobile preview
 
-<img src="./assets/enc-mobile.png" style="width: 30%"   />
+<div>
+  <img src="./assets/enc-mobile.png" style="width: 30%"   />
+  <img src="./assets/enc-mobile-3.png" style="width: 30%"   />
+  <img src="./assets/enc-mobile-2.png" style="width: 30%"   />
+</div>
 
 
 ## Technologies
