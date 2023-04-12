@@ -14,11 +14,11 @@
 
 - ### Desktop preview
 
-<img src="./assets/desktop-enc.png" style="width: 100%"  />
+<img src="./assets/enc-desktop.png" style="width: 100%"  />
 
 - ### Mobile preview
 
-<img src="./assets/mobile-enc.png" style="width: 30%"   />
+<img src="./assets/enc-mobile.png" style="width: 30%"   />
 
 
 ## Technologies
