@@ -2,22 +2,26 @@
 
 # Text Encryptor
 
+Tool for encrypting and decrypting messages
+
 </div>
 
 <div align="center" >
-<img src="https://img.shields.io/github/stars/jaenfigueroa/Text-Encryptor">
-<img src="https://img.shields.io/github/forks/jaenfigueroa/Text-Encryptor">
-<img src="https://img.shields.io/github/issues-pr/jaenfigueroa/Text-Encryptor">
-<img src="https://img.shields.io/github/issues/jaenfigueroa/Text-Encryptor">
+<img src="https://img.shields.io/github/stars/jaenfigueroa/text-encriptor">
+<img src="https://img.shields.io/github/forks/jaenfigueroa/text-encriptor">
+<img src="https://img.shields.io/github/issues-pr/jaenfigueroa/text-encriptor">
+<img src="https://img.shields.io/github/issues/jaenfigueroa/text-encriptor">
 
 </div>
 
-- ### Desktop preview
+## Screenshots
+
+- ### Desktop
 
 <img src="./assets/enc-desktop.png" style="width: 100%"  />
 <img src="./assets/enc-desktop-2.png" style="width: 100%"  />
 
-- ### Mobile preview
+- ### Mobile
 
 <div>
   <img src="./assets/enc-mobile.png" style="width: 30%"   />
@@ -37,6 +41,6 @@
 
 ## Website
 
-You can try my final result of the challenge [here](https://jaenfigueroa.github.io/Text-Encryptor/).
+[View challenge completed](https://jaenfigueroa.github.io/text-encriptor/).
 
 <img src="https://octodex.github.com/images/welcometocat.png" style="width: 25%">
