@@ -39,18 +39,36 @@ Herramienta para cifrar y decrifrar textos
 
 </div>
 
-## 📝 Elementos principales de la página
+## 📝 Elementos principales y caracteristicas de la página
+
+<img src="https://octodex.github.com/images/inspectocat.jpg" style="width: 25%" align="right">
 
 - Título de su sitio web
 - Campo para el texto que va a ser encriptado/desencriptado
 - Un botón para encriptar
 - Un botón para desencriptar
-- Área para mostrar el texto encriptado/desencriptado.
+- Área para mostrar el texto encriptado/desencriptado
+- Boton para copiar el texto resultante de la encriptacion/desencriptacion
+- Pagina web resposiva
+
+##  🔠 Fuente de texto
+
+- Lato - https://fonts.google.com/specimen/Lato?vfquery=lato&query=lato
+
+## 🎨 Paleta de colores
+
+<div>
+<img src="https://via.placeholder.com/200x50/20232A/FFF/?text=20232A" style="width: 120px">
+<img src="https://via.placeholder.com/200x50/282C34/FFF/?text=282C34" style="width: 120px">
+<img src="https://via.placeholder.com/200x50/D1D1D1/000000/?text=D1D1D1" style="width: 120px">
+<img src="https://via.placeholder.com/200x50/FFFFFF/000000/?text=FFFFFF" style="width: 120px">
+<img src="https://via.placeholder.com/200x50/61DAFB/000000/?text=61DAFB" style="width: 120px">
+</div>
 
 ## 📖 Diccionario de encriptacion
 
-| Llave  | Valor  |
-| :------------ | :------------ |
+| Clave  | Valor  |
+| :------------: | :------------: |
 | a  | ai  |
 | e  | enter  |
 |  i |  imes |
