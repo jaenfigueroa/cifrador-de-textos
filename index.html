@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Encryptor</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- javascript -->
+  <script src="main.js" defer></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <img src="./assets/Logo.svg">
+  </header>
+  <main class="main">
+
+    <!-- BLOQUE 1 -->
+    <section class="main__block1">
+      <textarea placeholder="Ingrese su texto aqui" id='textarea1'></textarea>
+
+      <article class="block1__aviso">
+        <img src="./assets/Vector.svg"/>
+        <p>Solo letras minusculas y sin acentos</p>
+      </article>
+
+      <div class="container-buttons">
+        <button class="button button--secondary b2" id="decryptButton" onclick="handleClick('decrypt')">Desencriptar</button>
+        <button class="button b1"  id="encryptButton" onclick="handleClick('encrypt')">Encriptar</button>
+      </div>
+    </section>
+
+    <!-- BLOQUE 2 -->
+    <section class="main__block2">
+      <div class="container-textarea">
+
+        <article class="warning" id="warningSection">
+          <img src="assets/Muñeco.svg" alt="">
+          <p>Ningun mensaje fue encontrado</p>
+          <span>Ingresa un texto de desees encriptar o desencriptar.</span>
+        </article>
+
+        <div class="resultados novisible" id="resultsSection">
+          <textarea id="textarea2"></textarea>
+          <button class="button" onclick="copyText()" id="copyButton">Copiar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
