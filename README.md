@@ -2,7 +2,7 @@
 
 # Text Encryptor
 
-Tool for encrypting and decrypting messages
+Herramienta para cifrar y decrifrar textos
 
 </div>
 
@@ -14,14 +14,14 @@ Tool for encrypting and decrypting messages
 
 </div>
 
-## Screenshots
+## 📷 Capturas de pantalla
 
-- ### Desktop
+- ### 💻 Desktop
 
 <img src="./assets/enc-desktop.png" style="width: 100%"  />
 <img src="./assets/enc-desktop-2.png" style="width: 100%"  />
 
-- ### Mobile
+- ### 📱 Mobile
 
 <div>
   <img src="./assets/enc-mobile.png" style="width: 30%"   />
@@ -30,7 +30,7 @@ Tool for encrypting and decrypting messages
 </div>
 
 
-## Technologies
+## 🛠️ Lenguages utilizados
 
 <div align="left" >
 <img src="https://camo.githubusercontent.com/c61346fb6ea6a25b03315c7a3655fdf3f0368efed773cc2cf393b3ff26a4a8d2/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f68746d6c2d312e737667" width="70px" height="65px" /> 
@@ -39,8 +39,26 @@ Tool for encrypting and decrypting messages
 
 </div>
 
-## Website
+## 📝 Elementos principales de la página
 
-[View challenge completed](https://jaenfigueroa.github.io/text-encriptor/).
+- Título de su sitio web
+- Campo para el texto que va a ser encriptado/desencriptado
+- Un botón para encriptar
+- Un botón para desencriptar
+- Área para mostrar el texto encriptado/desencriptado.
+
+## 📖 Diccionario de encriptacion
+
+| Llave  | Valor  |
+| :------------ | :------------ |
+| a  | ai  |
+| e  | enter  |
+|  i |  imes |
+| o  | ober  |
+|  u |  ufat |
+
+## 🌐 Sitio web
+
+Puedes ver el resultado [aqui](https://jaenfigueroa.github.io/text-encriptor/).
 
 <img src="https://octodex.github.com/images/welcometocat.png" style="width: 25%">
