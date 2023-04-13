@@ -49,7 +49,7 @@ Herramienta para cifrar y decrifrar textos
 - Un botón para desencriptar
 - Área para mostrar el texto encriptado/desencriptado
 - Boton para copiar el texto resultante de la encriptacion/desencriptacion
-- Pagina web resposiva
+- Pagina web responsiva
 
 ##  🔠 Fuente de texto
 
