@@ -21,7 +21,7 @@
 
     <!-- BLOQUE 1 -->
     <section class="main__block1">
-      <textarea placeholder="Ingrese su texto aqui" id='textarea1' oninput="limpiarTexto(event)"></textarea>
+      <textarea placeholder="Ingrese su texto aqui" id='texto' oninput="limpiarTexto(event)"></textarea>
 
       <article class="block1__aviso">
         <img src="./assets/Vector.svg" />
@@ -46,7 +46,7 @@
         </article>
 
         <div class="resultados novisible" id="resultsSection">
-          <textarea id="textarea2" placeholder="no hay texto"></textarea>
+          <textarea id="resultado" placeholder="no hay texto"></textarea>
           <button class="button button--copy" onclick="copiarTexto()" id="copyButton">
             <p class="primario">Copiar</p>
             <p class="alternativo">Texto copiado :D</p>
