@@ -98,11 +98,23 @@ body {
 
 .button:hover {
   background: var(--skyblue);
-  color: var(--gray1);
+  color: #20232a;
 }
 
-.button--copy {
-  animation: copy 100ms 2 alternate;
+.button:active{
+  animation: copy 300ms 2 alternate;
+}
+
+/* //////////////////////// */
+.button--copy p.alternativo{
+  display: none;
+}
+
+.button--copy:active p.primario{
+  display: none;
+}
+.button--copy:active p.alternativo{
+  display: inline;
 }
 
 @keyframes copy {
