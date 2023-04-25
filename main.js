@@ -1,7 +1,6 @@
 const seccionVacio = document.getElementById('warningSection')
 const seccionResultado = document.getElementById('resultsSection')
-let valorTexarea = document.getElementById('textarea1').value
-let resultado = document.getElementById('textarea2')
+const resultado = document.getElementById('textarea2')
 const DICCIONARIO = Object.freeze({ e: 'enter', i: 'imes', o: 'ober', a: 'ai', u: 'ufat' })
 
 const cifrarDecifrar = (text, type) => {
@@ -20,8 +19,8 @@ const mostrarResultados = (text) => {
 
 const copiarTexto = () => navigator.clipboard.writeText(resultado.textContent)
 
-const limpiarTexto = (e) => {
-  valorTexarea = e.target.value.replaceAll(/[^a-z\s]+/g, '')
+const limpiarTexto = ({target}) => {
+  target.value = target.value.replaceAll(/[^a-z\s]+/g, '')
 }
 
 const handleClick = (type) => mostrarResultados(cifrarDecifrar(valorTexarea, type))
