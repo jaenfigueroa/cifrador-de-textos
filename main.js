@@ -24,4 +24,4 @@ const limpiarTexto = (e) => {
   texto.value = e.target.value.replaceAll(/[^a-z\s]+/g, '')
 }
 
-const handleClick = (type) => mostrarResultados(cifrarDecifrar(texto.value, type))
+const start = (type) => mostrarResultados(cifrarDecifrar(texto.value, type))
