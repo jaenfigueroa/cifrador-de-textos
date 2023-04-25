@@ -12,16 +12,16 @@ const cifrarDecifrar = (text, type) => {
   return text
 }
 
-const mostrarResultados = (text) => {
+const mostrarResultado = (text) => {
   resultado.textContent = text
   seccionVacio.classList.toggle('novisible', !!text)
   seccionResultado.classList.toggle('novisible', !text)
 }
 
-const copiarTexto = () => navigator.clipboard.writeText(resultado.textContent)
+const copiarResultado = () => navigator.clipboard.writeText(resultado.textContent)
 
 const limpiarTexto = (e) => {
   texto.value = e.target.value.replaceAll(/[^a-z\s]+/g, '')
 }
 
-const start = (type) => mostrarResultados(cifrarDecifrar(texto.value, type))
+const start = (type) => mostrarResultado(cifrarDecifrar(texto.value, type))
