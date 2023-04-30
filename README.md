@@ -32,12 +32,7 @@ Herramienta para cifrar y decrifrar textos
 
 ## 🛠️ Lenguages utilizados
 
-<div align="left" >
-<img src="https://camo.githubusercontent.com/c61346fb6ea6a25b03315c7a3655fdf3f0368efed773cc2cf393b3ff26a4a8d2/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f68746d6c2d312e737667" width="70px" height="65px" /> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="80px" height="65px" /> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="65px" height="65px" />  &nbsp; &nbsp;
-
-</div>
+<img src="https://skillicons.dev/icons?i=javascript,html,css"></img>
 
 ## 📝 Elementos principales y caracteristicas de la página
 
