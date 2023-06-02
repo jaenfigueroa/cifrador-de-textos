@@ -6,10 +6,12 @@
   user-select: none;
   font-family: 'Lato', sans-serif;
 }
+
 html {
   font-size: 62.5%;
 }
-textarea::-webkit-scrollbar{
+
+textarea::-webkit-scrollbar {
   display: none;
 }
 
@@ -21,6 +23,7 @@ textarea::-webkit-scrollbar{
   --white: #fff;
   --skyblue: #61dafb;
 }
+
 /* //////////////////////// */
 body {
   display: flex;
@@ -46,9 +49,11 @@ body {
 .main {
   flex-grow: 1;
 }
-.main__block1{
+
+.main__block1 {
   padding: 2rem;
 }
+
 .main__block1 textarea {
   width: 100%;
   height: 300px;
@@ -101,19 +106,20 @@ body {
   color: #20232a;
 }
 
-.button:active{
+.button:active {
   animation: copy 300ms 2 alternate;
 }
 
 /* //////////////////////// */
-.button--copy p.alternativo{
+.button--copy p.alternativo {
   display: none;
 }
 
-.button--copy:active p.primario{
+.button--copy:active p.primario {
   display: none;
 }
-.button--copy:active p.alternativo{
+
+.button--copy:active p.alternativo {
   display: inline;
 }
 
@@ -224,10 +230,12 @@ body {
     max-width: 1400px;
     margin: 0 auto;
   }
-  .header{
+
+  .header {
     padding: 0 2rem;
     margin-right: -2rem;
   }
+
   .header img {
     margin: 1.7rem -3.5rem;
   }
@@ -268,7 +276,7 @@ body {
     gap: 1.5rem;
   }
 
-  .container-buttons button{
+  .container-buttons button {
     flex-grow: 1;
     width: inherit;
   }
@@ -277,10 +285,10 @@ body {
     width: 100%;
   }
 
-  .block1__aviso{
-    /* padding: 4rem 0.5rem 4rem; */
+  .block1__aviso {
     padding: 2rem 0.5rem 4rem;
   }
+
   .block1__aviso p {
     font-size: 1.5rem;
   }
@@ -331,16 +339,17 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .main__block1 textarea{
+  .main__block1 textarea {
     font-size: 2.2rem
   }
-  .main__block2 textarea{
+
+  .main__block2 textarea {
     font-size: 2.2rem;
   }
 }
 
 @media (min-width: 1300px) {
-  .header{
+  .header {
     padding: 0 2rem;
     margin-right: -.5rem;
   }
